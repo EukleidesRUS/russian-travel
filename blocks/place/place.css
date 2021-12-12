@@ -20,6 +20,12 @@
   }
 }
 
+@media (max-width: 1023px) {
+  .place:not(:last-child) {
+    padding-bottom: 73px;
+  }
+}
+
 @media (max-width: 768px) {
   .place {
     gap: 48px 28px;
@@ -35,5 +41,9 @@
       "place__image"
       "place__paragrephs";
     row-gap: 32px;
+  }
+
+  .place:not(:last-child) {
+    padding-bottom: 50px;
   }
 }

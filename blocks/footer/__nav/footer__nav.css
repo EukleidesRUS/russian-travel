@@ -1,9 +1,7 @@
 .footer__nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
-  flex-grow: 1;
   transition: all 0.7s ease-out;
 }
 

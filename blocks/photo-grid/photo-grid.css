@@ -1,6 +1,7 @@
 .photo-grid {
   justify-content: center;
   max-width: 1184px;
+  padding: 0 24px;
   box-sizing: content-box;
   transition: all 0.7s ease-out;
 }
@@ -8,7 +9,6 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     max-width: 928px;
-    padding: 0 24px;
   }
 }
 
