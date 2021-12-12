@@ -1,0 +1,10 @@
+.place__paragrephs {
+  grid-area: place__paragrephs;
+  transition: all 0.7s ease-out;
+}
+
+@media (max-width: 767px) {
+  .place__paragrephs {
+    padding: 0 16px;
+  }
+}

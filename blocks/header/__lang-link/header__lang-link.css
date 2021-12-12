@@ -1,0 +1,11 @@
+.header__lang-link {
+  text-decoration: none;
+  color: #ffffff;
+  list-style: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  cursor: url(../../../images/Pointer.png), pointer;
+}

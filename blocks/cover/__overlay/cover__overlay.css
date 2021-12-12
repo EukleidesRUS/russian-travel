@@ -1,0 +1,30 @@
+.cover__overlay {
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  padding: 20.7% 0;
+  box-sizing: border-box;
+  cursor: url(../../../images/Pointer.png), pointer;
+}
+
+.cover__overlay::before {
+  content: "";
+  display: block;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
+}

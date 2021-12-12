@@ -1,0 +1,39 @@
+.place__title {
+  grid-area: place__title;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  display: grid;
+  align-items: end;
+  margin: 0;
+  transition: all 0.7s ease-out;
+}
+
+@media (max-width: 1023px) {
+  .place__title {
+    font-size: calc(42px + 30 * ((100vw - 767px) / (1023 - 767)));
+    line-height: calc(46px + 30 * ((100vw - 767px) / (1023 - 767)));
+  }
+}
+
+@media (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__title {
+    font-size: calc(32px + 10 * ((100vw - 320px) / (767 - 320)));
+    line-height: calc(35px + 10 * ((100vw - 320px) / (767 - 320)));
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

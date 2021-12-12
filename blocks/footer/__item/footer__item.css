@@ -1,0 +1,11 @@
+.footer__item:not(:last-child) {
+  padding-right: 18px;
+  transition: all 0.7s ease-out;
+}
+
+@media (max-width: 767px) {
+  .footer__item:not(:last-child) {
+    padding-right: 0;
+    padding-bottom: 32px;
+  }
+}

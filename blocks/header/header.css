@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 48px 0;
+  box-sizing: border-box;
+  transition: all 0.7s ease-out;
+}
+
+@media (max-width: 1023px) {
+  .header {
+    padding: 28px calc(24px + 24 * ((100% - 767px) / (1023 - 767))) 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 28px calc(16px + 8 * ((100% - 320px) / (767 - 320))) 0;
+  }
+}
